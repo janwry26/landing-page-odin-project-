@@ -1,8 +1,15 @@
+
 .header{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #1F2937;
+  padding: 50px;
+  padding-top: 0;
+  
+}
+.container {
+  background-color: #1F2937;  
+  
 }
 .right-header {
   display: flex; 
@@ -21,8 +28,51 @@ a{
   color: white;
   margin:0;
   padding: 0; 
+  font-size: 18px;
+  color: #E5E7EB;
 }
 h1{
   margin:0;
   padding: 0;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+.part2{
+  display: flex;
+ 
+  align-items: center;
+  padding: 50px;
+  justify-content: space-around;
+
+}
+.title{
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+.info-title{
+  font-size: 18px;
+  color: #E5E7EB;
+  margin-bottom: 6px;
+}
+.signup{
+  background-color: #3882F6;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  padding: 6px 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.image-container {
+  background-color: gray;
+
+
+}
+.image{
+  width: 300px;
 }
